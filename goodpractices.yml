@@ -1,0 +1,6 @@
+name: goodpractices
+channels:
+  - defaults
+dependencies:
+  - python=3.12  # Specify a Python version, adjust as needed
+  - pytest
