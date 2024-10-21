@@ -7,7 +7,7 @@ This workshop is presented by CRIB University of Twente.
 
 - Create the `conda` environment by running the following command in the terminal:
 ```
-conda env create -f http://raw.githubusercontent.com/bhawiyuga/good-practices-in-software-dev/main/goodpractices.yml
+conda env create -f https://raw.githubusercontent.com/bhawiyuga/goodpractices-software-dev/refs/heads/main/goodpractices.yml
 ```
 
 - Activate the `conda` environment by running the following command in the terminal:
