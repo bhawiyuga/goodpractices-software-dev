@@ -120,6 +120,3 @@ if __name__ == "__main__":
     print(converter.convert_temperature(0, "F"))
     print(converter.convert_temperature(0, "K"))
     print(converter.convert_temperature(-500, "K"))
-    print(convert_temperature(-500, "C"))
-    print(convert_temperature(-500, "F"))
-    print(convert_temperature(0, "X"))
