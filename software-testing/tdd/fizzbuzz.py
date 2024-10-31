@@ -1,6 +1,34 @@
 import pytest
 
 def fizz_buzz(input):
+    """
+    Takes an integer input and returns specific string based on divisibility rules.
+
+    This function implements the classic FizzBuzz game rules:
+    - Returns "FizzBuzz" if input is divisible by both 3 and 5
+    - Returns "Fizz" if input is divisible by 3
+    - Returns "Buzz" if input is divisible by 5
+    - Returns the input number if none of the above conditions are met
+
+    Args:
+        input (int): A positive integer to be evaluated
+
+    Returns:
+        Union[str, int]: Either "FizzBuzz", "Fizz", "Buzz", or the input number itself
+
+    Raises:
+        ValueError: If input is less than or equal to 0
+
+    Examples:
+        >>> fizz_buzz(15)
+        'FizzBuzz'
+        >>> fizz_buzz(3)
+        'Fizz'
+        >>> fizz_buzz(5)
+        'Buzz'
+        >>> fizz_buzz(7)
+        7
+    """
     if input <= 0:
         raise ValueError("Input must be a positive integer")
     if input % 3 == 0 and input % 5 == 0:
